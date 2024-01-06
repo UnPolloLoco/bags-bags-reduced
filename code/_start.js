@@ -13,16 +13,10 @@ kaboom({
 
 debug.inspect = false;
 
-function ls(a,b) {
-  if (b == undefined) {
-    loadSprite(a, `${a}.png`); 
-  } else {
-    loadSprite(a, `${a}.png`, b);
-  };
-};
-
 const SCALE = width()/16;
+
+
 
 loadRoot('sprites/');
 
-ls('apple');
+loadSprite('apple', 'apple.png');
