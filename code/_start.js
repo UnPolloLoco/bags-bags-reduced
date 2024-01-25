@@ -10,6 +10,8 @@ kaboom({
 	pixelDensity: 1.5,
 });
 
+// -------------------- SPRITES -------------------- //
+
 loadSprite("blocks", "https://i.ibb.co/GWrxb2f/IMG-0813.png", {
 	sliceX: 3, sliceY: 3
 })
@@ -47,7 +49,12 @@ loadSprite("caveForeground", "https://i.ibb.co/MGsDjcC/IMG-1639.png")
 loadSprite("logo", "https://i.ibb.co/hcWFJVx/IMG-0864.png")
 loadSprite("controls", "https://i.ibb.co/fknspJx/IMG-1880.png")
 
-// constants
+// -------------------- FONTS -------------------- //
+
+loadFont("poppins", "fonts/poppins/Poppins-Regular.ttf")
+loadFont("poppinsBold", "fonts/poppins/Poppins-Bold.ttf")
+
+// -------------------- DATA VOMIT -------------------- //
 
 const SCALE = width() / 16;
 
@@ -198,7 +205,7 @@ const LAYER_INFO = [
 	}
 ]
 
-// save data stuff
+// -------------------- GAME SAVE STUFF -------------------- //
 
 let saveData = getData('save', '0,1,1').split(',');
 
