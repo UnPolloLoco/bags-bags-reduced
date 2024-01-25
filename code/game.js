@@ -360,6 +360,7 @@ scene('game', () => {
 		text('$0', {
 			size: SCALE,
 			align: 'center',
+			font: 'poppins',
 		}),
 		pos(width()/2, SCALE*2),
 		anchor('center'),
@@ -403,7 +404,10 @@ scene('game', () => {
 	// timer counter
 
 	const timeCounter = add([
-		text('', { size: SCALE*0.7 }),
+		text('', { 
+			size: SCALE*0.7,
+			font: 'poppins',
+		}),
 		pos(SCALE*2.5, height()/2),
 		anchor('center'),
 		color(WHITE),
@@ -525,7 +529,8 @@ scene('game', () => {
 						anchor: 'center',
 						pos: b.pos,
 						size: SCALE/3 + sizeAdd,
-						z: 100
+						z: 100,
+						font: 'poppins',
 				});
 			}
 		})
