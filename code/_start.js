@@ -10,9 +10,6 @@ kaboom({
 	pixelDensity: 1.5,
 });
 
-loadSprite("bean", "/sprites/bean.png")
-loadSprite("ghosty", "/sprites/ghosty.png")
-
 loadSprite("blocks", "https://i.ibb.co/GWrxb2f/IMG-0813.png", {
 	sliceX: 3, sliceY: 3
 })
