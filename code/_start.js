@@ -48,6 +48,7 @@ loadSprite("caveBackground", "https://i.ibb.co/vcjZM3q/IMG-0854.png")
 loadSprite("caveForeground", "https://i.ibb.co/MGsDjcC/IMG-1639.png")
 loadSprite("logo", "https://i.ibb.co/hcWFJVx/IMG-0864.png")
 loadSprite("controls", "https://i.ibb.co/fknspJx/IMG-1880.png")
+loadSprite("trash", "https://i.ibb.co/DCyvp9r/IMG-1884.png")
 
 // -------------------- FONTS -------------------- //
 
