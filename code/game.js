@@ -530,7 +530,7 @@ scene('game', () => {
 						pos: b.pos,
 						size: SCALE/3 + sizeAdd,
 						z: 100,
-						font: 'poppinsOutline',
+						font: 'poppinsBoldOutline',
 				});
 			}
 		})
