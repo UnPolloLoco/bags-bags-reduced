@@ -360,7 +360,7 @@ scene('game', () => {
 		text('$0', {
 			size: SCALE,
 			align: 'center',
-			font: 'poppinsBoldOutline',
+			font: 'poppinsOutline',
 		}),
 		pos(width()/2, SCALE*2),
 		anchor('center'),
