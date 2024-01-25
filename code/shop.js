@@ -70,7 +70,8 @@ scene('shop', () => {
 	add([
 		text('SHOP', {
 			size: SCALE,
-			align: 'center'
+			align: 'center',
+			font: 'poppinsBold',
 		}),
 		pos(width()/2, SCALE*1.3),
 		anchor('center'),
@@ -82,6 +83,7 @@ scene('shop', () => {
 		text(`$${stats.totalMoney}`, {
 			size: SCALE/3,
 			align: 'center',
+			font: 'poppins',
 		}),
 		pos(width()/2, SCALE*2.3),
 		anchor('center')
@@ -183,7 +185,8 @@ scene('shop', () => {
 		btn.label = add([
 			text(`$${basePrice}`, {
 				size: SCALE*0.4,
-				align: 'center'
+				align: 'center',
+				font: 'poppins',
 			}),
 			pos(SCALE*7.35, SCALE*4.86 + extraY),
 			anchor('center'),
@@ -211,7 +214,8 @@ scene('shop', () => {
 			][item], {
 				size: SCALE/3,
 				width: SCALE*7,
-				align: 'left'
+				align: 'left',
+				font: 'poppins',
 			}),
 			pos(0,0),
 			anchor('botright'),
