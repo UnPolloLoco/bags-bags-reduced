@@ -56,6 +56,9 @@ loadFont("poppinsBold", "fonts/poppins/Poppins-Bold.ttf")
 loadFont("poppinsOutline", "fonts/poppins/Poppins-Regular.ttf", {
 	outline: 3,
 })
+loadFont("poppinsBoldOutline", "fonts/poppins/Poppins-Bold.ttf", {
+	outline: 5,
+})
 
 // -------------------- DATA VOMIT -------------------- //
 
