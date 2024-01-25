@@ -408,7 +408,7 @@ scene('game', () => {
 			size: SCALE*0.7,
 			font: 'poppins',
 		}),
-		pos(SCALE*2.5, height()/2),
+		pos(SCALE*2.5, height()/2 + SCALE/7),
 		anchor('center'),
 		color(WHITE),
 		fixed(),
@@ -530,7 +530,7 @@ scene('game', () => {
 						pos: b.pos,
 						size: SCALE/3 + sizeAdd,
 						z: 100,
-						font: 'poppins',
+						font: 'poppinsOutline',
 				});
 			}
 		})
