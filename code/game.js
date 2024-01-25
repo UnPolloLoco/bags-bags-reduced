@@ -360,7 +360,7 @@ scene('game', () => {
 		text('$0', {
 			size: SCALE,
 			align: 'center',
-			font: 'poppins',
+			font: 'poppinsBoldOutline',
 		}),
 		pos(width()/2, SCALE*2),
 		anchor('center'),
@@ -408,7 +408,7 @@ scene('game', () => {
 			size: SCALE*0.7,
 			font: 'poppins',
 		}),
-		pos(SCALE*2.5, height()/2 + SCALE/7),
+		pos(SCALE*2.5, height()/2 + SCALE/10),
 		anchor('center'),
 		color(WHITE),
 		fixed(),
