@@ -73,7 +73,7 @@ scene('shop', () => {
 			align: 'center',
 			font: 'poppinsBold',
 		}),
-		pos(width()/2, SCALE*1.3),
+		pos(width()/2, SCALE*1.5),
 		anchor('center'),
 	])
 
@@ -186,7 +186,7 @@ scene('shop', () => {
 			text(`$${basePrice}`, {
 				size: SCALE*0.4,
 				align: 'center',
-				font: 'poppins',
+				font: 'poppinsOutline',
 			}),
 			pos(SCALE*7.35, SCALE*4.86 + extraY),
 			anchor('center'),
