@@ -34,12 +34,12 @@ scene('home', () => {
 	// reset progress button
 
 	const resetButton = add([
-		sprite('buttons'),
+		sprite('trash'),
 		pos(SCALE, height() - SCALE),
 		anchor('center'),
 		area(),
 		opacity(0.2),
-		scale(SCALE/213 * 0.6)
+		scale(SCALE/250 * 0.6)
 	])
 
 	// play button click
