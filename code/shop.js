@@ -73,7 +73,7 @@ scene('shop', () => {
 			align: 'center',
 			font: 'poppinsBold',
 		}),
-		pos(width()/2, SCALE*1.5),
+		pos(width()/2, SCALE*1.65),
 		anchor('center'),
 	])
 
@@ -188,7 +188,7 @@ scene('shop', () => {
 				align: 'center',
 				font: 'poppinsOutline',
 			}),
-			pos(SCALE*7.35, SCALE*4.86 + extraY),
+			pos(SCALE*7.35, SCALE*4.84 + extraY),
 			anchor('center'),
 			color(WHITE),
 		])
