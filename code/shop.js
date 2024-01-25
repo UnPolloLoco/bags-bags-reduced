@@ -69,11 +69,11 @@ scene('shop', () => {
 
 	add([
 		text('SHOP', {
-			size: SCALE,
+			size: SCALE*1.2,
 			align: 'center',
 			font: 'poppinsBold',
 		}),
-		pos(width()/2, SCALE*1.65),
+		pos(width()/2, SCALE*1.5),
 		anchor('center'),
 	])
 
