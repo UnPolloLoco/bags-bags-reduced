@@ -54,7 +54,7 @@ loadSprite("controls", "https://i.ibb.co/fknspJx/IMG-1880.png")
 loadFont("poppins", "fonts/poppins/Poppins-Regular.ttf")
 loadFont("poppinsBold", "fonts/poppins/Poppins-Bold.ttf")
 loadFont("poppinsOutline", "fonts/poppins/Poppins-Regular.ttf", {
-	outline: 5,
+	outline: 3,
 })
 
 // -------------------- DATA VOMIT -------------------- //
