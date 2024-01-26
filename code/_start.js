@@ -12,19 +12,19 @@ kaboom({
 
 // -------------------- SPRITES -------------------- //
 
-loadSprite("blocks", "https://i.ibb.co/GWrxb2f/IMG-0813.png", {
+loadSprite("blocks", "sprites/blocks.png", {
 	sliceX: 3, sliceY: 3
 })
-loadSprite("buttons", "https://i.ibb.co/FxgtQQ4/IMG-0871.png", {
+loadSprite("buttons", "sprites/buttons.png", {
 	sliceX: 3, sliceY: 2
 })
-loadSprite("shopStuff", "https://i.ibb.co/CzFxYvn/IMG-0861.png", {
+loadSprite("shopStuff", "sprites/shopStuff.png", {
 	sliceX: 2, sliceY: 2
 })
-loadSprite("miner", "https://i.ibb.co/jL3v4y5/IMG-0862.png", {
+loadSprite("miner", "sprites/miner.png", {
 	sliceX: 2
 })
-loadSprite("effects", "https://i.ibb.co/gFPf8Kx/IMG-1608.png", {
+loadSprite("effects", "sprites/effects.png", {
 	sliceX: 3, sliceY: 2,
 	anims: {
 		boom: {
@@ -33,7 +33,7 @@ loadSprite("effects", "https://i.ibb.co/gFPf8Kx/IMG-1608.png", {
 		}
 	}
 })
-loadSprite("explosion", "https://i.ibb.co/YZ9Mwnj/IMG-1638.png", {
+loadSprite("explosion", "sprites/explosion.png", {
 	sliceX: 3, sliceY: 2,
 	anims: {
 		boom: {
@@ -44,11 +44,11 @@ loadSprite("explosion", "https://i.ibb.co/YZ9Mwnj/IMG-1638.png", {
 	}
 })
 
-loadSprite("caveBackground", "https://i.ibb.co/vcjZM3q/IMG-0854.png")
-loadSprite("caveForeground", "https://i.ibb.co/MGsDjcC/IMG-1639.png")
-loadSprite("logo", "https://i.ibb.co/hcWFJVx/IMG-0864.png")
-loadSprite("controls", "https://i.ibb.co/fknspJx/IMG-1880.png")
-loadSprite("trash", "https://i.ibb.co/DCyvp9r/IMG-1884.png")
+loadSprite("caveBackground", "sprites/caveBackground.png")
+loadSprite("caveForeground", "sprites/caveForeground.png")
+loadSprite("logo", "sprites/logo.png")
+loadSprite("controls", "sprites/controls.png")
+loadSprite("trash", "sprites/trash.png")
 
 // -------------------- FONTS -------------------- //
 
