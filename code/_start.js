@@ -55,7 +55,7 @@ loadSprite("trash", "https://i.ibb.co/DCyvp9r/IMG-1884.png")
 loadFont("poppins", "fonts/poppins/Poppins-Regular.ttf")
 loadFont("poppinsBold", "fonts/poppins/Poppins-Bold.ttf")
 loadFont("poppinsOutline", "fonts/poppins/Poppins-Regular.ttf", {
-	outline: 3,
+	outline: 7,
 })
 loadFont("poppinsBoldOutline", "fonts/poppins/Poppins-Bold.ttf", {
 	outline: 7,
