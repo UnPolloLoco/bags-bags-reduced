@@ -187,7 +187,7 @@ scene('shop', () => {
 				size: SCALE*0.4,
 				align: 'center',
 				font: 'poppinsOutline',
-				letterSpacing: SCALE/15,
+				letterSpacing: -SCALE/15,
 			}),
 			pos(SCALE*7.35, SCALE*4.84 + extraY),
 			anchor('center'),
