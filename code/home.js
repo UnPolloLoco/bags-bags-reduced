@@ -35,11 +35,11 @@ scene('home', () => {
 
 	const resetButton = add([
 		sprite('trash'),
-		pos(SCALE, height() - SCALE),
+		pos(SCALE*1.2, height() - SCALE*1.2),
 		anchor('center'),
 		area(),
 		opacity(0.2),
-		scale(SCALE/250 * 0.6)
+		scale(SCALE/250)
 	])
 
 	// play button click
