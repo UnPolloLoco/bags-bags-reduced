@@ -361,6 +361,7 @@ scene('game', () => {
 			size: SCALE,
 			align: 'center',
 			font: 'poppinsOutline',
+			letterSpacing: -SCALE/7,
 		}),
 		pos(width()/2, SCALE*2),
 		anchor('center'),
@@ -531,6 +532,7 @@ scene('game', () => {
 						size: SCALE/3 + sizeAdd,
 						z: 100,
 						font: 'poppinsBoldOutline',
+						letterSpacing: -SCALE/22,
 				});
 			}
 		})
